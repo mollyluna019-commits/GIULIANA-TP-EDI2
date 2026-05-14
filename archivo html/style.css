@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap ');
+p{
+   font-family: 'Fredoka One', cursive;
+   color: #e73b80;
+   font-size: 24px;
+   background: linear-gradient(to right, hsl(0, 0%, 0%));
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1{font-family: 'Fredoka One', cursive;
+   font-size: 78px;
+   background: linear-gradient(to right, #FF0064, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-container {
+    max-width: 1200px; 
+    margin: 0 auto;   
+    width: 90%;        
+}
+
+*{
+    margin: 0;
+    padding: -1;
+    box-sizing: border-box;
+}
+
+.banner img{
+    width: 55%;
+    margin-top: -570px;
+    margin-left: 872px;
+    margin-right: -139px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+body,html{
+    height:1310px;
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(fondo.jpg) center center; 
+    background-size: cover;
+}
+
+.navbar ul{
+    background-color: #858585;
+    border: 3px  solid;
+    border-color: #ffffff #808080 #808080 #ffffff;
+    list-style-type: none;
+    color: #eeeeee;
+    padding: 14px 116px;
+    margin: 0 327px;
+    margin-left: 137px;
+    margin-top: -211px;
+    display: flex;
+}
+.navbar a{
+    color: #ffffff;
+    border-color: #eeeeee;
+    text-decoration: none;
+    padding: 24px;
+    display: flex;
+    text-align: center;
+       border-bottom: 2px solid #000;
+    border-right: 7px solid #000;
+    border-left: 2px solid #ffffff;
+    border-top: 7px solid #ffffff;
+    box-shadow: 1px 1px 0px 0px #000;
+}
+
+
+.navbar a:hover{
+      background-color: #858585;
+}
+
+.navbar li{
+    float: left;
+}
+
+
+
+.contenedor{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    border-radius: 4px dotted #e73b80;
+    max-width: 100%;
+    margin-left: -1157px;
+    margin-right: 261px;
+    display: block;
+    margin-top: 838px;
+}
+
+.boton-redireccion{
+    background-color: #e73b80
+    color(rgb(255, 255, 255));
+    padding: 10px 20px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.boton-redireccion:hover{
+    background-color: #FD71AD;
+}
+form
+    white-space: nowrap;
+    height: 29px;
+    background-color: #eee240, 248, 255, 0.692;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #ccc;
+
+
+<tr>
+</tr>
+
+<div style="margin-top: 4px;margin-bottom: -12px;">
+
+<div id="music">
+                            <iframe allowfullscreen="" src=<iframe width="560" height="315" src="https://www.youtube.com/embed/2gr92FtwBGI?si=986Rsmo9s7VVwuOw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"" loading="lazy" width="560" height="315" frameborder="0"></iframe>
+                        <div>
+                            <span class="song">[tittle screen]</span>
+                            <span class="artist">[Kira Kira Pop Princess OST]</span>
+</div>
+                    </div>
+
+</div>
+
+
+
+
+
+    <style>
+
+ #music {
+  position: relative;
+  background: url(musicplayer.png) top left no-repeat;
+    background-size: auto;
+  background-size: auto;
+  background-size: 100% 100%;
+  overflow: hidden;
+  height: 50px;
+  max-width: 305px;
+  border: 1px solid #000000;
+}
+#music iframe {
+  position: absolute;
+  top: 0px;
+  height: 47px;
+  opacity: 0.00000000000000000000000001;
+  z-index: 0;
+  left: 0px;
+}
+#music div {
+  position: absolute;
+  top: 10px;
+  left: 55px;
+  width: 51%;
+  margin: 0 ;
+}
+#music span {
+  display: block;
+  color: #FFFFFF;
+  font-weight: normal;
+  text-align: left;
+  font-size: 12px;
+  width: 240px;
+}
